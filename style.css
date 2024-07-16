@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: transparent;
+    
+}
+.navbar-brand{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.x{
+    color: rgb(255, 21, 21);
+}
+.nav-link{
+    font-weight: bold;
+    color: black;
+    margin-right: 10px;
+    position: relative;
+   
+
+}
+.nav-link:hover{
+    text-decoration: underline; 
+}
+.nav-link:active{
+    background-color: gray;
+    border-radius: 20px;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+#bg1{
+    background-image: url(./images/bg1.jpg);
+    
+}
+.parallax .content {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0px 10px black;
+}
+.parallax .content h1{
+    font-size: 50px;
+    
+}
+.parallax .content p{
+    font-size: 20px;
+    font-weight:500;
+}
+.parallax button{
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border: solid 2px black;
+    width: 150px;
+    font-weight: bold;
+}
+
+.parallax button:hover{
+    background-color: black;
+    color: white;
+}
+#About{
+    color: black;
+    z-index: 1;
+}
+.content2 h1{
+    font-weight: bold;
+}
+.content2 .p1{
+    font-weight: 500;
+}
+.content2 .p2{
+    text-align:center;
+    padding: 50px;
+    
+}
+.parallax2 {
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.parallax4 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+#bg4{
+    background-image: url(./images/bg4.jpg);
+    text-align: center;
+}
+.place1{
+    background-color: rgba(255, 255, 255, 0.421);
+    width: 700px;
+    padding: 50px;
+    border-radius: 0px 100px 0px 100px;
+    margin-top: 300px;
+}
+.place1 img{
+    border-radius: 10px;
+}
+.place1 h2{
+    padding-top: 10px;
+    text-shadow: 0px 2px 5px black;
+}
+.place1 p{
+    padding-top: 10px;
+    
+}
+.place2{
+    background-color: rgba(255, 255, 255, 0.421);
+    width: 700px;
+    padding: 50px;
+    border-radius: 100px 00px 100px 00px;
+    margin-top: -00px;
+}
+.place2 img{
+    border-radius: 10px;
+}
+.place2 h2{
+    padding-top: 10px;
+    text-shadow: 0px 2px 5px black;
+}
+.place2 p{
+    padding-top: 10px;
+    
+}
+.place3{
+    background-color: rgba(255, 255, 255, 0.421);
+    width: 700px;
+    padding: 50px;
+    border-radius: 0px 100px 0px 100px;
+    margin-top: -260px;
+}
+.place3 img{
+    border-radius: 10px;
+}
+.place3 h2{
+    padding-top: 10px;
+    text-shadow: 0px 2px 5px black;
+}
+.place3 p{
+    padding-top: 10px;
+   
+}
+#ftr{
+    
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#ft a{
+    text-decoration: none;
+    color: black;
+}
+#ft{
+    padding: 10px;
+}
+#inst:hover{
+    color: bisque;
+}
+.con{
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .content2{
+        padding-top: 100px;
+    }
+    .content3{
+        padding-top: 100px;
+    }
+}
+@media(max-width:480px){
+    .content2{
+        padding-top: 550px;
+    }
+    .content3{
+        padding-top: 570px;
+    }
+    .place1{
+        width: 450px;
+    }
+    .place2{
+        width: 450px;
+        margin-top: 30px;
+    }
+    .place3{
+        width: 450px;
+        margin-top: -170px;
+    }
+}
